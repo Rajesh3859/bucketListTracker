@@ -5,5 +5,5 @@ The application allows users to add new bucket list items through an input field
 
 From a technical perspective, the project highlights important JavaScript concepts such as event handling, dynamic element creation, conditional styling, and efficient DOM updates. The code is structured to keep logic clear and maintainable, making the project easy to understand and extend. Overall, the Bucket List Tracker serves as a practical example of front-end development fundamentals and is well suited for beginners looking to strengthen their skills, as well as for showcasing basic UI design and JavaScript proficiency in a portfolio or academic submission.
 
-<img src="../bucketListTracker/images/1.png">
-<img src="../bucketListTracker/images/2.png">
+![desktop](/images/1.png)
+![mobile](/images/2.png)
