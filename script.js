@@ -57,21 +57,21 @@ function updateUI() {
       item.category +
       "- Target: " +
       item.targetDate +
-      "</p></div><div>" +
+      "</p></div><div class='grid grid-cols-1 sm:grid-cols-3'>" +
       "<button onclick='editItem(" +
       index +
-      ")' class='px-2 py-1 bg-yellow-500 text-white rounded'" +
+      ")' class='px-2 py-1 bg-yellow-500 text-white rounded m-2'" +
       ">Edit</button>" +
       "<button onclick='toggleCompletion(" +
       index +
-      ")' class='mr-2 px-2 py-1 rounded " +
+      ")' class='m-2 px-2 py-1 rounded " +
       (item.completed
         ? "bg-green-500 text-white" + "'>"
         : "bg-red-500 text-white" + "'>") +
       (item.completed ? "Achieved" + "</button>" : "Pending" + "</button>") +
       "<button onclick='deleteItem(" +
       index +
-      ")' class='px-2 py-1 bg-red-500 text-white rounded'" +
+      ")' class='px-2 py-1 bg-red-500 text-white rounded m-2'" +
       ">Delete</button></div>";
 
     console.log(itemElement);
